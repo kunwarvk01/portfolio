@@ -1,0 +1,182 @@
+.divider
+{
+
+	border: 1px dashed #DADADA;
+
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    height: 6vw;
+}
+
+    #pane
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 8vh;
+    }
+
+        #companylogo
+        {
+            height: 7vw;
+            width: auto;
+            margin: 1vw;
+            margin-right: 10px;
+        }
+
+        #companyname
+        {
+            font-size: 3.5vw;
+
+        }
+
+        #notificationicon
+        {
+            height: 2.5vw;
+            width: auto;
+            margin-right: 4vw;
+        }
+
+        #pp
+        {
+            border-radius: 50%;
+            height: 4vw;
+            width: auto;
+            margin: 1vw;
+            margin-right: 1vw;
+        }
+
+        #username
+        {
+        padding-right: 15px;
+        }
+
+#workingarea
+{
+    display: flex;
+    flex direction: row;
+    padding:  50px;
+    padding-top: 30px;
+    background: #F5F5F5;
+    border: 1px solid #F3F3F3;
+}
+
+    #leftrec
+    {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+
+        #toppart
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFFFFF;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+            #profilepic
+            {
+                border-radius: 50%;
+                border: 1.5px solid#3BABC3;
+                height: auto;
+                margin-top: 20px;
+                width: 70%;
+                padding: 2px;
+            }
+
+            #name
+            {
+
+            }
+
+        .leftrecsmall
+        {
+            display: flex;
+            flex-direction: column;
+            background: #FFFFFF;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+            .leftheading
+            {
+
+            }
+
+            .leftdetails
+            {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-size: 1rem;
+                line-height: 25px;
+                text-align: justify;
+                letter-spacing: 0.02em;
+            }
+
+            #links
+            {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+
+            }
+
+            #lefticons
+            {
+                display: flex;
+                align-items: center;
+                width:auto;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+                #lusername{
+                    padding-left: 10px;
+                }
+
+
+
+    #rightrec
+    {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+
+    }
+
+        .rightsrec
+        {
+            background: #FFFFFF;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 30px;
+            margin-left:50px;
+        }
+
+            .rightheading
+            {
+
+            }
+
+            .rightdetails
+            {
+
+            }
+
+                .rightsubdetails
+                {
+
+                }
